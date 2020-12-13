@@ -1,0 +1,246 @@
+body {
+	background-image: url("background.png");
+}
+
+h1 {
+position: absolute;
+height: 334px;
+left: 0px;
+right: 0px;
+top: 140px;
+
+font-family: Bahnschrift;
+font-style: normal;
+font-weight: normal;
+font-size: 288px;
+line-height: 346px;
+text-align: center;
+
+color: #FF0000;
+transition: 300ms ease all;
+}
+
+h2 {
+position: absolute;
+height: 174px;
+left: 1px;
+right: 0px;
+top: 524px;
+
+font-family: Bitter;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 115px;
+text-align: center;
+
+color: #000000;
+transition: 300ms ease all;
+}
+
+button {
+position: absolute;
+width: 260px;
+height: 97px;
+left: calc(50% - 260px/2 + 1px);
+top: 740px;
+
+background: #F2F2F2;
+border: 5px solid #76E87A;
+box-sizing: border-box;
+
+font-family: Bitter;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+padding-left: 60px;
+
+transition: 300ms;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+label {
+position: absolute;
+width: 78px;
+height: 80.41px;
+left: 0px;
+top: 0px;
+z-index: 2;
+}
+
+.menu {
+position: absolute;
+left: -400px;
+width: 328px;
+top: 0%;
+bottom: 0%;
+
+background: #F2F2F2;
+/* Drop Shadow Default */
+
+box-shadow: 0px 0px 10px 5px rgba(131, 0, 0, 0.5);
+transition: 300ms ease all;
+}
+
+input[type=checkbox]:checked ~ .menu {
+position: absolute;
+width: 328px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+background: #F2F2F2;
+/* Drop Shadow Default */
+
+box-shadow: 0px 0px 10px 5px rgba(131, 0, 0, 0.5);
+}
+
+input[type=checkbox]:checked ~ h1 {
+position: absolute;
+transform: translateX(150px);
+}
+
+input[type=checkbox]:checked ~ h2 {
+position: absolute;
+transform: translateX(150px);
+}
+
+.ham1 {
+position: absolute;
+width: 40px;
+height: 6.19px;
+left: 20px;
+top: 22.68px;
+z-index: 1;
+
+background: #FF0000;
+}
+
+.ham2 {
+position: absolute;
+width: 40px;
+height: 6.19px;
+left: 20px;
+top: 37.11px;
+z-index: 1;
+
+background: #FF0000;
+}
+
+.ham3 {
+position: absolute;
+width: 40px;
+height: 6.19px;
+left: 20px;
+top: 51.55px;
+z-index: 1;
+
+background: #FF0000;
+}
+
+input[type=checkbox]:checked ~ button {
+position: absolute;
+left: 34px;
+}
+
+.home {
+position: absolute;
+width: 328px;
+height: 97px;
+left: 0px;
+top: 145px;
+
+background: none;
+border: none;
+outline: none;
+padding-left: 110px;
+
+font-family: Bitter;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+transition: 300ms ease all;
+}
+
+.home:hover {
+background: #76E87A;
+}
+
+.rules {
+position: absolute;
+width: 328px;
+height: 97px;
+left: 0px;
+top: 242px;
+
+background: none;
+border: none;
+outline: none;
+padding-left: 115px;
+
+font-family: Bitter;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+transition: 300ms ease all;
+}
+
+.rules:hover{
+background: #76E87A;
+}
+
+.contact {
+position: absolute;
+width: 328px;
+height: 97px;
+left: 0px;
+top: 339px;
+
+background: none;
+border: none;
+outline: none;
+padding-left: 70px;
+
+font-family: Bitter;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+transition: 300ms ease all;
+}
+
+.contact:hover{
+background: #76E87A;
+}
+
+button:hover {
+	background: #76E87A;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
